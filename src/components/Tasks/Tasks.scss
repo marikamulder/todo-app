@@ -1,0 +1,19 @@
+.listedTasks {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 355px;
+    .eraseButton {
+        display: flex;
+        flex-direction: row;
+        width: 140px;
+        font-size: 16px;
+        justify-content: center;
+        align-items: center;
+        svg {
+            width: 30px;
+            height: 20px;
+            margin-right: 4px;
+        }
+    }
+}

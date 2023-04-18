@@ -1,0 +1,41 @@
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 355px;
+    .formBox {
+        background-color: #73e0e0;
+        border: 2px solid rgb(95, 95, 94);
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        .descriptInput {
+            input {
+                width: 200px;
+                background-color : #ffffff; 
+            }
+        }
+        .formBottomBox {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .selectInput {
+                flex: 50%;
+                select {
+                    background-color : #ffffff; 
+                    width: 100px;
+                    padding: 3px;
+                }
+            }
+            .plusCircle {
+                width: 30px;
+                margin-right: 4px;
+            }
+            button {
+                display: flex;
+                flex-direction: row;
+                width: 85px;
+            }
+        }
+    }
+}

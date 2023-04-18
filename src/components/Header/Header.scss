@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    flex-direction: row;
+    svg {
+        height: auto;
+        width: 35px;
+        margin-right: 15px;
+    }
+    .title {
+        font-size: 26px;
+        font-weight: bold;
+    }
+    .author {
+        font-style: italic;
+        font-size: 14px;
+    }
+}
