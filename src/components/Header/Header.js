@@ -9,7 +9,7 @@ function Header() {
         <header>
             <FaTasks/>
             <div>
-                <div className="title">Todo App</div>
+                <div className="title">Check It</div>
                 <div className="author">by Marika Mulder</div>
             </div>
         </header>
